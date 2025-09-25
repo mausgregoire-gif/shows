@@ -1,5 +1,4 @@
-
-    const artistMapping = {
+  const artistMapping = {
         "4": "Nicolas Michaux",
         "54": "Leo Leonard",
         "46": "Clément Nourry",
