@@ -1,4 +1,5 @@
-  const artistMapping = {
+
+    const artistMapping = {
         "4": "Nicolas Michaux",
         "54": "Leo Leonard",
         "46": "Clément Nourry",
@@ -77,7 +78,7 @@
     const artistId = new URLSearchParams(window.location.search).get("id") || "4";
     const artistName = artistMapping[artistId];
     const sheetId = "1bMZ-a3RGnjpvmY65TcafUPNKlxf5ABZPqnBtUR8SOUk";
-    const apiKey = "AIzaSyASo8n_-mItC7Pbp_Dk4AMxc1rZ2kANCfU";
+    const apiKey = "AIzaSyCeqU256AEzMpZoWdsGh89drKO4fVPu8hg";
     const range = "Avenir";
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}&callback=processData`;
 
